@@ -1,0 +1,17 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+build:
+  dockerBuildPath: browser-tools-mcp
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'node', args: ['dist/mcp-server.js'], env: {} })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    properties: {}
+    description: No configuration required. Optionally set BROWSER_TOOLS_HOST and
+      BROWSER_TOOLS_PORT as environment variables.
+  exampleConfig: {}

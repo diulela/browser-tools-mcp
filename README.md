@@ -1,5 +1,7 @@
 # BrowserTools MCP
 
+[![smithery badge](https://smithery.ai/badge/@diulela/browser-tools-mcp)](https://smithery.ai/server/@diulela/browser-tools-mcp)
+
 > Make your AI tools 10x more aware and capable of interacting with your browser
 
 This application is a powerful browser monitoring and interaction tool that enables AI-powered applications via Anthropic's Model Context Protocol (MCP) to capture and analyze browser data through a Chrome extension.
